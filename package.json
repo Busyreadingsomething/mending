@@ -1,0 +1,24 @@
+{
+  "name": "mending",
+  "version": "1.0.0",
+  "description": "Webpage for mendel.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Busyreadingsomething/mending.git"
+  },
+  "keywords": [
+    "mendle",
+    "health",
+    "ai"
+  ],
+  "author": "Makan Azarshahy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Busyreadingsomething/mending/issues"
+  },
+  "homepage": "https://github.com/Busyreadingsomething/mending#readme"
+}
