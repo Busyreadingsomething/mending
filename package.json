@@ -4,7 +4,9 @@
   "description": "Webpage for mendel.ai",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "buildDev": "webpack -d -w",
+    "startDev": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
