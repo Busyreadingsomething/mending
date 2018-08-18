@@ -1,4 +1,5 @@
 import React from 'react';
+import Item from '../Item/index';
 
 class MAIN extends React.Component {
   constructor(props) {
@@ -13,9 +14,11 @@ class MAIN extends React.Component {
       <div className="">
         <h1>THIS SHOULD RENDER</h1>
         {
-          this.state.map(string => <p>{string}</p>)
+          this.state.list.map(message => <Item key={message} message={message} />)
         }
       </div>
     );
   }
 }
+
+export default MAIN;
